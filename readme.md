@@ -13,6 +13,8 @@ This syllabus is the trained-down output of the research in [main-plan.md](main-
 - Tick the `- [ ] ` boxes in each module file as you go. It's your own file — edit it freely.
 - Keep **Brian Ward's *How Linux Works, 3rd ed.* (No Starch, 2021)** on hand as a running companion the whole way through. It's not tied to one topic — it's the connective-tissue reference for processes, signals, boot, filesystems, and the privilege model, and it's explicitly the safety net for the topics flagged below.
 
+https://stcformation.com/wp-content/uploads/2023/10/How-Linux-Works-What-Every-Superuser-Should-Know.pdf
+
 ## ⚠️ Topics with no fully-matching resource
 These topics didn't have a single resource hitting analogy + mechanism + visual at the bar you set. They're flagged inline in their module with the best available substitute (usually text/prose, not illustrated) — go in expecting that, not expecting a Julia-Evans-quality comic:
 - Signals (Module 1)
