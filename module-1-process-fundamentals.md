@@ -20,6 +20,7 @@ Everything downstream (systemd, boot, networking, auth, cron) is built on top of
 sleep 100 &
 ps -o pid,ppid,stat,cmd
 kill %1
+pstree -c
 ```
 Identify which PID is the parent shell and which is the child `sleep`. Then run a `sleep 1 &` and immediately `ps -o pid,ppid,stat` again fast enough to try to catch its `Z` (zombie) state before the shell reaps it.
 
